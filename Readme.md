@@ -1,6 +1,6 @@
 <!-- PALLAVI SARKAR ANIMATED BANNER -->
   <p align="center">
-    <img src="https://raw.githubusercontent.com/ItsMeVishal0/VishalMusic/main/banner.svg" alt="Vishal Music Banner" width="900"/>
+    <img src="https://raw.githubusercontent.com/pallavisarkaar07/VishalMusic/main/banner.svg" alt="Pallavi Sarkar Banner" width="900"/>
   </p>
 
   <!-- ANIMATED FOOTER LINE -->
