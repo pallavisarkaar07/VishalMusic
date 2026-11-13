@@ -37,14 +37,14 @@ def _clean_api_id(val, default: int = 26493077) -> int:
 
 
 # ── Core bot config ─────────────────────────────────────────────────────────
-API_ID = _clean_api_id(getenv("API_ID"), 26493077)
-API_HASH = _clean_str(getenv("API_HASH"), "6586f0276c7748e54684719bdd247d90")
+API_ID = _clean_api_id(getenv("API_ID"), )
+API_HASH = _clean_str(getenv("API_HASH"), "")
 BOT_TOKEN = _clean_str(getenv("BOT_TOKEN"))
 
-OWNER_ID = _clean_int(getenv("OWNER_ID"), 7044783841)
-OWNER_USERNAME = _clean_str(getenv("OWNER_USERNAME"), "ItsMeVishalBots")
-BOT_USERNAME = _clean_str(getenv("BOT_USERNAME"), "vaishaliTune_bot")
-BOT_NAME = _clean_str(getenv("BOT_NAME"), "≽ ^⎚ 𝘃𝗮𝗶𝘀𝗵𝗮𝗹𝗶 𝘅 𝗺𝘂𝘀𝗶𝗰 ⎚^ ≼")
+OWNER_ID = _clean_int(getenv("OWNER_ID"), )
+OWNER_USERNAME = _clean_str(getenv("OWNER_USERNAME"), "@RPShyariwold")
+BOT_USERNAME = _clean_str(getenv("BOT_USERNAME"), "@Pallavisarkrr_bot")
+BOT_NAME = _clean_str(getenv("BOT_NAME"), "≽ ^⎚ 𝗺𝘂𝘀𝗶𝗰 ⎚^ ≼")
 ASSUSERNAME = _clean_str(getenv("ASSUSERNAME"), "≽ ^⎚ 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 ⎚^ ≼")
 
 # ── Database & logging ────────────────────────────────────────────────────────
@@ -78,13 +78,13 @@ HEROKU_APP_NAME = _clean_str(getenv("HEROKU_APP_NAME"))
 HEROKU_API_KEY = _clean_str(getenv("HEROKU_API_KEY"))
 
 # ── Git / updates ──────────────────────────────────────────────────────────
-UPSTREAM_REPO = _clean_str(getenv("UPSTREAM_REPO"), "https://github.com/ItsMeVishal0/VishalMusic.git")
+UPSTREAM_REPO = _clean_str(getenv("UPSTREAM_REPO"), "https://github.com/pallavisarkaar07/VishalMusic.git")
 UPSTREAM_BRANCH = _clean_str(getenv("UPSTREAM_BRANCH"), "main")
 GIT_TOKEN = _clean_str(getenv("GIT_TOKEN"))  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = _clean_str(getenv("SUPPORT_CHANNEL"), "https://t.me/ItsMeVishalBots")
-SUPPORT_CHAT = _clean_str(getenv("SUPPORT_CHAT"), "https://t.me/ItsMeVishalBots")
+SUPPORT_CHANNEL = _clean_str(getenv("SUPPORT_CHANNEL"), "https://t.me/RPShyariwold")
+SUPPORT_CHAT = _clean_str(getenv("SUPPORT_CHAT"), "https://t.me/+-k8Y8mYrdSBjODI1")
 PRIVACY_LINK = _clean_str(getenv("PRIVACY_LINK"), SUPPORT_CHAT)
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
@@ -179,12 +179,12 @@ if COOKIE_URL and not re.match(r"^https://(batbin\.me|pastebin\.com)/[A-Za-z0-9]
     
 print("""
 ╔════════════════════════════════════╗
-║🎵 𝗩𝗜𝗦𝗛𝗔𝗟 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗘𝗗𝗜𝗧𝗜𝗢𝗡  
-║       ✦ 𝗖𝗼𝗻𝗳𝗶𝗴 𝗟𝗼𝗮𝗱𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀! ✦   
+║          🎵 𝗣𝗔𝗟𝗟𝗔𝗩𝗜 𝗠𝗨𝗦𝗜𝗖 
+║        
 ╚════════════════════════════════════╝
 """)
 
 # ═══════════════════════════════════════════════════════════
 #         🌺 Vɪsʜᴀʟ Mᴜsɪᴄ 🌺
-#   github.com/ItsMeVishal0/VishalMusic
+#   github.com/pallavisarkaar07/VishalMusic
 # ═══════════════════════════════════════════════════════════
